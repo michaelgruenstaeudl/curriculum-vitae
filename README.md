@@ -3,6 +3,9 @@
 
 [LinkedIn](https://www.linkedin.com/in/michael-gruenstaeudl/) | [ORCID](https://orcid.org/0000-0002-1666-1773) | [ResearchGate](https://www.researchgate.net/profile/Michael-Gruenstaeudl) | [GitHub](https://github.com/michaelgruenstaeudl)  
 
+
+Current as of: 31-Aug-2025
+
 ---
 
 ## Education
