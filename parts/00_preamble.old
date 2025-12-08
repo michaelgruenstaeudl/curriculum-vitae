@@ -1,0 +1,307 @@
+%%%%%%%%%%%%
+% PACKAGES %
+%%%%%%%%%%%%
+\usepackage[top=2.5cm,
+            bottom=2.5cm,
+            left=2.0cm,
+            right=2.0cm]{geometry}  % Document margins
+
+\usepackage[export]{adjustbox}     % For exact image trimming
+%\usepackage{biblatex}
+\usepackage{bibtopic}              % For multiple Bibliographies
+\usepackage{booktabs}              % 
+%\usepackage{caption}                
+%\usepackage[labelformat=empty]{caption}  % For custom captions
+\usepackage{caption}  % For custom captions
+\usepackage{changepage}
+\usepackage{enumitem}               % For margins in itemize{}
+\usepackage{eurosym}                % 
+\usepackage{fancyhdr}               % Fancy headers
+\usepackage{float}                  % For forcing figure locations; use: \begin{figure}[H]
+%\usepackage{fontawesome}            % For general icons
+\usepackage{fontawesome5}            % For general icons
+\usepackage{fp}                     % for labeling circle
+\usepackage{graphicx}               % % for command 'resizebox'
+\usepackage{hyperref}               % Colors for links, text and headings
+\usepackage{lastpage}
+\usepackage{libertine}             % For libertine glyphs (i.e. circled, blackbackground numbers)
+\usepackage{longtable}             % For tables that break across pages
+\setlength{\LTpre}{3pt}            % Setting for longtable
+\usepackage[many]{tcolorbox}        % for transparent colorboxes
+\usepackage{mdframed}
+\usepackage{multirow}
+\usepackage{nameref}
+\let\ganttchart\relax               % Because command ganttchart has already been defined
+\usepackage{pgfgantt}               % 
+\usepackage[object=vectorian]{pgfornament}	% For ornaments
+\usepackage{ragged2e}               % For text justification
+\usepackage{setspace}               % For adjusting the line spacing of title
+\usepackage[justification=centerfirst]{subfig}
+\usepackage{tabularx}               % 
+\usepackage{tikz}                   % 
+\usepackage{titlecaps}
+\usepackage[explicit]{titlesec}    % For setting section header spacing and fontsizes
+\usepackage{varwidth}               % For function '\begin{adjustwidth}'
+\usepackage{wrapfig}
+\usepackage{xcolor}                 % For simple color specifications (e.g., cyan, gray, etc.)
+\usepackage{xurl}                   % allows urls to breakwith margin
+\usepackage[normalem]{ulem}         % For strike-outs
+\usepackage[nodayofweek]{datetime}  % For getting current date
+\usepackage{scalerel}               % For ORCID logo 
+\usepackage{ifthen}                 % For setting booleans
+%\usepackage{pageslts}              % For lastpage specials
+\usepackage{microtype}              % For improved text hypthenation and, thus, justification
+\usepackage{multicol}
+\usepackage{soul}
+\usepackage{moresize}				% For HUGE and ssmall font sizes
+\usepackage{lipsum}                % For dummy text
+\usepackage{amssymb}
+\usepackage{mfirstuc}				% To capitalize first letter of a word
+\usepackage{vwcol}					% Better than multicol
+
+% GERMAN %
+\usepackage[utf8]{inputenc}          % inputenc: coding of german special characters
+%\usepackage{ngerman}                % ngerman: language set to new-german
+%%% babel: language set (can cause some conflicts with package ngerman)
+%%%        use it only for multi-language documents or non-german ones
+%\usepackage[ngerman]{babel}
+
+% FONT %
+%% ROBOTO
+%\usepackage[sfdefault,light]{roboto}  %% Option 'sfdefault' only if the base font of the document is to be sans serif
+%\usepackage[T1]{fontenc}
+%\renewcommand{\familydefault}{\sfdefault}
+%\renewcommand{\sfdefault}{phv}
+%% ARIAL
+\usepackage[T1]{fontenc}
+\usepackage{helvet}                    %% Package for Arial font
+\renewcommand*{\familydefault}{\sfdefault}
+
+%%%%%%%%%%
+% CONFIG %
+%%%%%%%%%%
+\newcommand{\myName}{Michael Gruenstaeudl (Grünstäudl), PhD}
+\newcommand{\myEmail}{m_gruenstaeudl@fhsu.edu}
+\newcommand{\myPhone}{+1 785 432 3184}
+\newcommand{\myAddress}{Fort Hays State University, 600 Park Street, Hays, KS 67601, USA}
+
+\usepackage{xcolor}
+\definecolor{darkCyan}{rgb}{0.0, 0.55, 0.55}
+\definecolor{darkRed}{rgb}{0.545, 0, 0}
+\newcommand{\mainColor}{darkgray}%darkRed}
+\newcommand{\linkColor}{darkCyan}
+\newcommand{\headerColor}{darkgray}%gray!85}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % COLOR DEF. FOR LINKS %
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+\hypersetup{colorlinks, 
+            citecolor=\linkColor, 
+            urlcolor=\linkColor, 
+            linkcolor=\linkColor}  % Set up links and colors
+\urlstyle{same}
+
+%%%%%%%%%%%%%%%%%%%
+% HEADER / FOOTER %
+%%%%%%%%%%%%%%%%%%%
+\pagestyle{fancy}
+%\setcounter{page}{5}
+\fancyhf{}
+\renewcommand{\sectionmark}[1]{\markboth{\thesection\quad #1}{}}
+\addtolength{\headheight}{0.25cm}
+\fancyhead[CE,CO]{\textcolor{darkgray}{\textsc{\leftmark}~~|~~\textls[-10]{\textsc{Michael Gruenstaeudl, PhD}}}}
+%\fancyhead[LE,LO]{\textsc{\leftmark}}
+%\fancyhead[RE,RO]{\textls[-10]{\textsc{\myName}}}
+\fancyfoot[CE,CO]{\textcolor{darkgray}{\textcolor{\headerColor}{Page~\thepage~/~\pageref*{LastPage}}}}
+%\fancyfoot[LE,LO]{\textcolor{\headerColor}{Last updated: \number\year-\twodigit{\month}-\twodigit{\day}}}
+%\fancyfoot[RE,RO]{\textcolor{\headerColor}{Page \thepage / \pageref*{LastPage}}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+%%%%%%%%%%%%%
+% FOOTNOTES %
+%%%%%%%%%%%%%
+% footnote in footer
+\newcommand{\fancyfootnotetext}[2]{%
+  \fancypagestyle{dingens}{%
+    \fancyfoot[LO,RE]{\parbox{15cm}{\footnotemark[#1]\footnotesize #2}}%
+  }%
+  \thispagestyle{dingens}%
+}
+
+%%%%%%%%%%%%%%%
+% PAGE STYLES %
+%%%%%%%%%%%%%%%
+%\titleformat{\section}{\normalfont\fontsize{11}{11}\bfseries}{\thesection}{1em}{}   % Fontsize of sections
+%\titleformat{\subsection}{\normalfont\fontsize{11}{11}\bfseries}{\thesubsection}{1em}{}   % Fontsize of subsections
+\titlespacing*{\section}{0pt}{\baselineskip}{0.40\baselineskip}      % Reducing the space after the section titles
+\titlespacing*{\subsection}{0pt}{\baselineskip}{0.20\baselineskip}      % Reducing the space after the subsection titles
+
+%%%%%%%%%%%%%%%%%%
+% CAPTION STYLES %
+%%%%%%%%%%%%%%%%%%
+\captionsetup{%justification=raggedright, 
+			  singlelinecheck=false,
+			  font={normalsize,stretch=0.75}}   % Left-aligned, multiline captions
+\captionsetup[figure]{labelfont={bf}}
+\captionsetup[table]{labelfont={bf}}
+\captionsetup[subfloat]{font=normalsize}
+
+%%%%%%%%%%%%%%%%%%%%%
+% PARAGRAPH COMMAND %
+%%%%%%%%%%%%%%%%%%%%%
+\setcounter{secnumdepth}{4}
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.0ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% SECTION / SUBSECTION TITLES %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% SECTION TITLE
+\titleformat{\section}
+{\normalfont\large\bfseries}{}{0em}{\colorbox{\mainColor}{\parbox{\dimexpr\textwidth-2\fboxsep\relax}{\textcolor{white}{\thesection\quad#1}}}}
+\titleformat{name=\section,numberless}
+{\normalfont\large\bfseries}{}{0em}{\colorbox{\mainColor}{\parbox{\dimexpr\textwidth-2\fboxsep\relax}{\textcolor{white}{#1}}}}
+
+% SUBSECTION TITLE
+\titleformat{\subsection}
+	{\normalfont\large\scshape\bfseries\color{\mainColor}}{}{0cm}{
+	\color{\mainColor}
+	\hbox{\rule[0.4ex]{20pt}{1pt}}
+	{~\thesubsection~#1}
+	\leaders\hbox{\rule[0.4ex]{1pt}{1pt}}\hfill}
+\titleformat{name=\subsection,numberless}
+	{\normalfont\large\scshape\bfseries\color{\mainColor}}{}{0cm}{
+	\color{\mainColor}
+	\hbox{\rule[0.4ex]{20pt}{1pt}}
+	{~#1}
+	\leaders\hbox{\rule[0.4ex]{1pt}{1pt}}\hfill}
+
+% SUBSUBSECTION TITLE
+\titleformat{\subsubsection}
+	{\normalfont\bfseries\color{\mainColor}}{}{0cm}{
+	\color{\mainColor}
+	\hbox{\rule[0.4ex]{20pt}{1pt}}
+	{~\thesubsubsection~#1~}
+	\leaders\hbox{\rule[0.4ex]{1pt}{1pt}}\hfill\hspace{0.5\textwidth}}
+\titleformat{name=\subsubsection,numberless}
+	{\normalfont\bfseries\color{\mainColor}}{}{0cm}{
+	\color{\mainColor}
+	\hbox{\rule[0.4ex]{20pt}{1pt}}
+	{~#1~}
+	\leaders\hbox{\rule[0.4ex]{1pt}{1pt}}\hfill\hspace{0.5\textwidth}}
+
+% PARAGRAPH TITLE
+\titleformat{\paragraph}
+  {\normalfont\bfseries}{}{0cm}{\hspace{-1em}\theparagraph\quad#1}
+\titleformat{name=\paragraph,numberless}
+  {\normalfont\bfseries}{}{0cm}{\hspace{-1em}\quad#1}
+
+%\titleformat{\paragraph}[hang]{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% SPECIAL RULES FOR TABULAR %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+%%%%%%%%%%%%%%%%%%%%
+% Scaling FA icons %
+%%%%%%%%%%%%%%%%%%%%
+\DeclareFontFamily{U}{fontawesomeOne}{}
+\DeclareFontShape{U}{fontawesomeOne}{m}{n}
+  {<-> FontAwesome--fontawesomeone}{}
+\DeclareRobustCommand\FAone{\fontencoding{U}\fontfamily{fontawesomeOne}\selectfont} 
+
+%%%%%%%%%%%%%%%%%%%
+% CUSTOM COMMANDS %
+%%%%%%%%%%%%%%%%%%%
+%
+\newcommand{\myMultRow}[4]{{\multirow{#1}{#2}{\parbox{1\linewidth}{\vspace{#3} \raggedleft #4}}}}
+%
+\newcommand{\cul}[1]{\underline{\smash{#1}}}
+%
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,fill,inner sep=1pt,color=gray] (char) {\footnotesize\textcolor{white}{\textbf{#1}}};}}
+%
+\newtcolorbox{myHighlightedBox}{colback=red!5!white,colframe=red!75!black}
+
+\newcommand\IconAndLinkBox[2]{%
+	\begin{minipage}[t]{1.0\textwidth}
+	\textcolor{\mainColor}{
+	\begin{center}
+		{\HUGE #1}\\[5pt]
+		\begin{spacing}{0.75}
+        {\small #2}
+        \end{spacing}
+    \end{center}}
+	\end{minipage}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+% BIBLIOGRAPHY DETAILS %
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[numbers]{natbib}  % For numbered bibliography
+%\usepackage{natbib}  % For numbered bibliography
+%\renewcommand{\bibpreamble}{\begin{multicols}{2}}
+%\renewcommand{\bibpostamble}{\end{multicols}}
+
+\setlength{\bibsep}{10pt} % Reset space between entries
+%\def\bibfont{\small}
+
+\bibliographystyle{is-unsrt}
+%\bibliographystyle{apalike}
+
+%% Inverting the numbering of the reference
+% (see: https://tex.stackexchange.com/questions/727307/inverting-numbering-in-number-formatted-natbib-bibliography)
+\makeatletter
+  % Invert numbering in bibliography.
+  \renewcommand*\bibnumfmt[1]{[\the\numexpr\bt@totalctr+1-#1]}
+  % Invert numbering in citations.
+  \patchcmd\NAT@wrout{#1}{\the\numexpr \bt@totalctr+1-#1}{}{}
+\makeatother
+
+%%%%%%%%%%%%
+% COLORBOX %
+%%%%%%%%%%%%
+\usepackage[many]{tcolorbox}
+\usetikzlibrary{calc}
+
+\tcbset{mystyle/.style={
+  breakable,
+  enhanced,
+  outer arc=0pt,
+  arc=0pt,
+  colframe=\mainColor,
+  colback=\mainColor!20,
+  attach boxed title to top left,
+  boxed title style={
+    colback=\mainColor,
+    outer arc=0pt,
+    arc=0pt,
+    top=3pt,
+    bottom=3pt,
+    },
+  fonttitle=\sffamily
+  }
+}
+
+\newtcolorbox[auto counter]{myColoredBox}[1][]{
+  mystyle,
+  title=Reference~\refNum,%\thetcbcounter,
+  overlay unbroken and first={
+      \path
+        let
+        \p1=(title.north east),
+        \p2=(frame.north east)
+        in
+        node[anchor=west,font=\sffamily,color=\mainColor,text width=\x2-\x1] 
+        at (title.east) {#1};
+  }
+}

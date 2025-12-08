@@ -1,0 +1,1287 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{ydnt/global//global/global/global}
+  \entry{JenkeEtAl2025}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=c}{%
+         family={\cul{N Jenke}},
+         familyi={c\bibinitperiod},
+      }}%
+      {{hash=c}{%
+         family={\cul{Smith, GM}},
+         familyi={c\bibinitperiod},
+      }}%
+      {{hash=c}{%
+         family={\cul{Magar Thapa, B}},
+         familyi={c\bibinitperiod},
+      }}%
+      {{hash=t}{%
+         family={\textbf{M Gruenstaeudl}},
+         familyi={t\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ccct1}
+    \strng{fullhash}{ccct1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{note}{\url{https://doi.org/10.1038/s41598-025-11568-9}}
+    \field{pages}{26294}
+    \field{title}{{Variation of and associations with the depth and evenness of
+  sequencing coverage in archived plastid genomes}}
+    \field{volume}{15}
+    \field{journaltitle}{Scientific Reports}
+    \field{year}{2025}
+  \endentry
+
+  \entry{RoestelEtAl2024}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=c}{%
+         family={\cul{JA Roestel}},
+         familyi={c\bibinitperiod},
+      }}%
+      {{hash=WJ}{%
+         family={Wiersema},
+         familyi={W\bibinitperiod},
+         given={JH},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=JR}{%
+         family={Jansen},
+         familyi={J\bibinitperiod},
+         given={RK},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=BT}{%
+         family={Borsch},
+         familyi={B\bibinitperiod},
+         given={T},
+         giveni={T},
+      }}%
+      {{hash=t}{%
+         family={\textbf{M Gruenstaeudl}},
+         familyi={t\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{cWJJRBTt1}
+    \strng{fullhash}{cWJJRBTt1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{note}{\url{https://doi.org/10.1111/cla.12584}}
+    \field{pages}{469\bibrangedash 495}
+    \field{title}{{On the importance of sequence alignment inspections in
+  plastid phylogenomics – an example from revisiting the relationships of the
+  water-lilies}}
+    \field{volume}{40}
+    \field{journaltitle}{Cladistics}
+    \field{year}{2024}
+  \endentry
+
+  \entry{GiorgashviliEtAl2022}{article}{}{}
+    \name{author}{6}{}{%
+      {{hash=c}{%
+         family={\cul{E Giorgashvili}},
+         familyi={c\bibinitperiod},
+      }}%
+      {{hash=RK}{%
+         family={Reichel},
+         familyi={R\bibinitperiod},
+         given={K},
+         giveni={K},
+      }}%
+      {{hash=c}{%
+         family={\cul{C Caswara}},
+         familyi={c\bibinitperiod},
+      }}%
+      {{hash=KV}{%
+         family={Kerimov},
+         familyi={K\bibinitperiod},
+         given={V},
+         giveni={V},
+      }}%
+      {{hash=BT}{%
+         family={Borsch},
+         familyi={B\bibinitperiod},
+         given={T},
+         giveni={T},
+      }}%
+      {{hash=t}{%
+         family={\textbf{M Gruenstaeudl}},
+         familyi={t\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{cRKcKVBTt1}
+    \strng{fullhash}{cRKcKVBTt1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{note}{\url{https://doi.org/10.3389/fpls.2022.779830}}
+    \field{pages}{779830}
+    \field{title}{{Software choice and sequencing coverage can impact plastid
+  genome assembly -- A case study in the narrow endemic \textit{Calligonum
+  bakuense}}}
+    \field{volume}{13}
+    \field{journaltitle}{Frontiers in Plant Science}
+    \field{year}{2022}
+  \endentry
+
+  \entry{EscobariEtAl2021}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=c}{%
+         family={\cul{B Escobari}},
+         familyi={c\bibinitperiod},
+      }}%
+      {{hash=BT}{%
+         family={Borsch},
+         familyi={B\bibinitperiod},
+         given={T},
+         giveni={T},
+      }}%
+      {{hash=QT}{%
+         family={Quedensley},
+         familyi={Q\bibinitperiod},
+         given={TS},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=t}{%
+         family={\textbf{M Gruenstaeudl}},
+         familyi={t\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{cBTQTt1}
+    \strng{fullhash}{cBTQTt1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{note}{\url{https://doi.org/10.1002/ajb2.1775}}
+    \field{pages}{2235\bibrangedash 2256}
+    \field{title}{{Plastid phylogenomics of the Gynoxoid group (Senecioneae,
+  Asteraceae) highlights the importance of motif-based sequence alignment amid
+  low genetic distances}}
+    \field{volume}{108}
+    \field{journaltitle}{American Journal of Botany}
+    \field{year}{2021}
+  \endentry
+
+  \entry{MehlAndGruenstaeudl2021}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=c}{%
+         family={\cul{T Mehl}},
+         familyi={c\bibinitperiod},
+      }}%
+      {{hash=t}{%
+         family={\textbf{M Gruenstaeudl}},
+         familyi={t\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ct1}
+    \strng{fullhash}{ct1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{note}{\url{https://doi.org/10.1186/s12859-021-04309-y}}
+    \field{pages}{413}
+    \field{title}{{airpg: Automatically accessing the inverted repeats of
+  archived plastid genomes}}
+    \field{volume}{22}
+    \field{journaltitle}{BMC Bioinformatics}
+    \field{year}{2021}
+  \endentry
+
+  \entry{DuranEtAl2020}{article}{}{}
+    \name{author}{8}{}{%
+      {{hash=DI}{%
+         family={Duran},
+         familyi={D\bibinitperiod},
+         given={I},
+         giveni={I},
+      }}%
+      {{hash=MA}{%
+         family={Marrero},
+         familyi={M\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+      {{hash=MF}{%
+         family={Msanda},
+         familyi={M\bibinitperiod},
+         given={F},
+         giveni={F},
+      }}%
+      {{hash=HC}{%
+         family={Harrouni},
+         familyi={H\bibinitperiod},
+         given={C},
+         giveni={C},
+      }}%
+      {{hash=t}{%
+         family={\textbf{M Gruenstaeudl}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=PJ}{%
+         family={Patino},
+         familyi={P\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+      {{hash=CCJ}{%
+         family={Caujape-Castells},
+         familyi={C\bibinithyphendelim C\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+      {{hash=GVC}{%
+         family={Garcia-Verdugo},
+         familyi={G\bibinithyphendelim V\bibinitperiod},
+         given={C},
+         giveni={C},
+      }}%
+    }
+    \strng{namehash}{DIMAMFHCtPJCCJGVC1}
+    \strng{fullhash}{DIMAMFHCtPJCCJGVC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{note}{doi: \url{https://doi.org/10.1002/tax.12215}}
+    \field{pages}{217\bibrangedash 233}
+    \field{title}{{Iconic, threatened, but largely unknown: Biogeography of the
+  Macaronesian dragon trees (\textit{Dracaena} spp.) as inferred from plastid
+  DNA markers}}
+    \field{volume}{69}
+    \field{journaltitle}{Taxon}
+    \field{year}{2020}
+  \endentry
+
+  \entry{Gruenstaeudl2020}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=t}{%
+         family={\textbf{M Gruenstaeudl}},
+         familyi={t\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{t1}
+    \strng{fullhash}{t1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{note}{doi: \url{https://doi.org/10.1093/bioinformatics/btaa209}}
+    \field{pages}{207}
+    \field{title}{{annonex2embl: automatic preparation of annotated DNA
+  sequences for bulk submissions to ENA}}
+    \field{volume}{21}
+    \field{journaltitle}{Bioinformatics}
+    \field{year}{2020}
+  \endentry
+
+  \entry{GruenstaeudlAndJenke2020}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=t}{%
+         family={\textbf{M Gruenstaeudl}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=c}{%
+         family={\cul{N Jenke}},
+         familyi={c\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{tc1}
+    \strng{fullhash}{tc1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{note}{doi: \url{https://doi.org/10.1186/s12859-020-3475-0}}
+    \field{pages}{3841\bibrangedash 3848}
+    \field{title}{{PACVr: Plastome Assembly Coverage Visualization in R}}
+    \field{volume}{36}
+    \field{journaltitle}{BMC Bioinformatics}
+    \field{year}{2020}
+  \endentry
+
+  \entry{SzukalaEtAl2019}{article}{}{}
+    \name{author}{9}{}{%
+      {{hash=SA}{%
+         family={Szukala},
+         familyi={S\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+      {{hash=KN}{%
+         family={Korotkova},
+         familyi={K\bibinitperiod},
+         given={N},
+         giveni={N},
+      }}%
+      {{hash=t}{%
+         family={\textbf{M Gruenstaeudl}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Sennikov},
+         familyi={S\bibinitperiod},
+         given={AN},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LG}{%
+         family={Lazkov},
+         familyi={L\bibinitperiod},
+         given={GA},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Litvinskaya},
+         familyi={L\bibinitperiod},
+         given={SA},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Gabrielian},
+         familyi={G\bibinitperiod},
+         given={SA},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BT}{%
+         family={Borsch},
+         familyi={B\bibinitperiod},
+         given={T},
+         giveni={T},
+      }}%
+      {{hash=vE}{%
+         family={{von Raab-Straube}},
+         familyi={v\bibinitperiod},
+         given={E},
+         giveni={E},
+      }}%
+    }
+    \strng{namehash}{SAKNtSALGLSGSBTvE1}
+    \strng{fullhash}{SAKNtSALGLSGSBTvE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{note}{doi: \url{https://doi.org/10.1002/tax.12027}}
+    \field{pages}{112\bibrangedash 131}
+    \field{title}{{Phylogeny of the Eurasian genus \textit{Jurinea}
+  (Asteraceae: Cardueae): Support for a monophyletic genus concept and a first
+  hypothesis on overall species relationships}}
+    \field{volume}{68}
+    \field{journaltitle}{Taxon}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Gruenstaeudl2019}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=t}{%
+         family={\textbf{M Gruenstaeudl}},
+         familyi={t\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{t1}
+    \strng{fullhash}{t1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{note}{doi: \url{https://doi.org/10.1007/s00606-019-01610-5}}
+    \field{pages}{827\bibrangedash 836}
+    \field{title}{{Why the monophyly of Nymphaeaceae currently remains
+  indeterminate: An assessment based on gene-wise plastid phylogenomics}}
+    \field{volume}{305}
+    \field{journaltitle}{Plant Systematics and Evolution}
+    \field{year}{2019}
+  \endentry
+
+  \entry{GruenstaeudlandHartmaring2019}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=t}{%
+         family={\textbf{M Gruenstaeudl}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=c}{%
+         family={\cul{Y Hartmaring}},
+         familyi={c\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{tc2}
+    \strng{fullhash}{tc2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{note}{doi: \url{https://doi.org/10.1371/journal.pone.0210347}}
+    \field{pages}{e0210347}
+    \field{title}{{EMBL2checklists: A Python package to facilitate the
+  user-friendly submission of plant and fungal DNA barcoding sequences to ENA}}
+    \field{volume}{14}
+    \field{journaltitle}{PLoS ONE}
+    \field{year}{2019}
+  \endentry
+
+  \entry{DiVincenzoEtAl2018}{article}{}{}
+    \name{author}{7}{}{%
+      {{hash=DV}{%
+         family={{Di Vincenzo}},
+         familyi={D\bibinitperiod},
+         given={V},
+         giveni={V},
+      }}%
+      {{hash=t}{%
+         family={\textbf{M Gruenstaeudl}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=NL}{%
+         family={Nauheimer},
+         familyi={N\bibinitperiod},
+         given={L},
+         giveni={L},
+      }}%
+      {{hash=WM}{%
+         family={Wondafrash},
+         familyi={W\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+      {{hash=KP}{%
+         family={Kamau},
+         familyi={K\bibinitperiod},
+         given={P},
+         giveni={P},
+      }}%
+      {{hash=DS}{%
+         family={Demissew},
+         familyi={D\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+      {{hash=BT}{%
+         family={Borsch},
+         familyi={B\bibinitperiod},
+         given={T},
+         giveni={T},
+      }}%
+    }
+    \strng{namehash}{DVtNLWMKPDSBT1}
+    \strng{fullhash}{DVtNLWMKPDSBT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{note}{doi: \url{https://doi.org/10.1093/aob/mcy055}}
+    \field{pages}{69\bibrangedash 85}
+    \field{title}{{Evolutionary diversification of the African achyranthoid
+  clade (Amaranthaceae) in the context of sterile flower evolution and
+  epizoochory}}
+    \field{volume}{122}
+    \field{journaltitle}{Annals of Botany}
+    \field{year}{2018}
+  \endentry
+
+  \entry{QuedensleyEtAl2018}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=QT}{%
+         family={Quedensley},
+         familyi={Q\bibinitperiod},
+         given={TS},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=t}{%
+         family={\textbf{M Gruenstaeudl}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=JR}{%
+         family={Jansen},
+         familyi={J\bibinitperiod},
+         given={RK},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{QTtJR1}
+    \strng{fullhash}{QTtJR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{issn}{1934-5259}
+    \field{pages}{481\bibrangedash 498}
+    \field{title}{{Phylogenetic relationships of the Mexican tussilaginoid
+  genera (Asteraceae: Senecioneae)}}
+    \field{volume}{12}
+    \field{journaltitle}{Journal of the Botanical Research Institute of Texas}
+    \field{year}{2018}
+  \endentry
+
+  \entry{GruenstaeudlEtAl2018}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=t}{%
+         family={\textbf{M Gruenstaeudl}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=GN}{%
+         family={Gerschler},
+         familyi={G\bibinitperiod},
+         given={N},
+         giveni={N},
+      }}%
+      {{hash=BT}{%
+         family={Borsch},
+         familyi={B\bibinitperiod},
+         given={T},
+         giveni={T},
+      }}%
+    }
+    \strng{namehash}{tGNBT1}
+    \strng{fullhash}{tGNBT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{note}{doi: \url{https://doi.org/10.3390/life8030025}}
+    \field{pages}{25}
+    \field{title}{{Bioinformatic workflows for generating complete plastid
+  genome sequences - An example from \textit{Cabomba} (Cabombaceae) in the
+  context of the phylogenomic analysis of the water-lily clade}}
+    \field{volume}{8}
+    \field{journaltitle}{Life}
+    \field{year}{2018}
+  \endentry
+
+  \entry{KorotkovaEtAl2017}{article}{}{}
+    \name{author}{8}{}{%
+      {{hash=KN}{%
+         family={Korotkova},
+         familyi={K\bibinitperiod},
+         given={N},
+         giveni={N},
+      }}%
+      {{hash=PG}{%
+         family={Parolly},
+         familyi={P\bibinitperiod},
+         given={G},
+         giveni={G},
+      }}%
+      {{hash=KA}{%
+         family={Khachatryan},
+         familyi={K\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+      {{hash=GL}{%
+         family={Ghulikyan},
+         familyi={G\bibinitperiod},
+         given={L},
+         giveni={L},
+      }}%
+      {{hash=SH}{%
+         family={Sargsyan},
+         familyi={S\bibinitperiod},
+         given={H},
+         giveni={H},
+      }}%
+      {{hash=AJ}{%
+         family={Akopian},
+         familyi={A\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+      {{hash=BT}{%
+         family={Borsch},
+         familyi={B\bibinitperiod},
+         given={T},
+         giveni={T},
+      }}%
+      {{hash=t}{%
+         family={\textbf{M Gruenstaeudl}},
+         familyi={t\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KNPGKAGLSHAJBTt1}
+    \strng{fullhash}{KNPGKAGLSHAJBTt1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{note}{doi: \url{https://doi.org/10.1111/jse.12276}}
+    \field{pages}{35\bibrangedash 47}
+    \field{title}{{Towards resolving the evolutionary history of Caucasian
+  pears (\textit{Pyrus}, Rosaceae) - Phylogenetic relationships, divergence
+  times and leaf trait evolution}}
+    \field{volume}{56}
+    \field{journaltitle}{Journal of Systematics and Evolution}
+    \field{year}{2017}
+  \endentry
+
+  \entry{MaharramovaEtAl2017}{article}{}{}
+    \name{author}{6}{}{%
+      {{hash=ME}{%
+         family={Maharramova},
+         familyi={M\bibinitperiod},
+         given={E},
+         giveni={E},
+      }}%
+      {{hash=HI}{%
+         family={Huseynova},
+         familyi={H\bibinitperiod},
+         given={I},
+         giveni={I},
+      }}%
+      {{hash=KS}{%
+         family={Kolbaia},
+         familyi={K\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+      {{hash=t}{%
+         family={\textbf{M Gruenstaeudl}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=BT}{%
+         family={Borsch},
+         familyi={B\bibinitperiod},
+         given={T},
+         giveni={T},
+      }}%
+      {{hash=ML}{%
+         family={Muller},
+         familyi={M\bibinitperiod},
+         given={LAH},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MEHIKStBTML1}
+    \strng{fullhash}{MEHIKStBTML1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{note}{doi: \url{https://doi.org/10.1080/14772000.2017.1333540}}
+    \field{pages}{14\bibrangedash 27}
+    \field{title}{{Phylogeography and population genetics of the riparian
+  relict tree \textit{Pterocarya fraxinifolia} (Juglandaceae) in the South
+  Caucasus}}
+    \field{volume}{16}
+    \field{journaltitle}{Systematics and Biodiversity}
+    \field{year}{2017}
+  \endentry
+
+  \entry{GruenstaeudlEtAl2017a}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=t}{%
+         family={\textbf{M Gruenstaeudl}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=CB}{%
+         family={Carstens},
+         familyi={C\bibinitperiod},
+         given={BC},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=SGA}{%
+         family={Santos-Guerra},
+         familyi={S\bibinithyphendelim G\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+      {{hash=JR}{%
+         family={Jansen},
+         familyi={J\bibinitperiod},
+         given={RK},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{tCBSGAJR1}
+    \strng{fullhash}{tCBSGAJR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{note}{doi: \url{https://doi.org/10.1093/biolinnean/blw014}}
+    \field{pages}{133\bibrangedash 149}
+    \field{title}{{Statistical hybrid detection and the inference of ancestral
+  distribution areas in \textit{Tolpis} (Asteraceae)}}
+    \field{volume}{121}
+    \field{journaltitle}{Biological Journal of the Linnean Society}
+    \field{year}{2017}
+  \endentry
+
+  \entry{GruenstaeudlEtAl2017b}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=t}{%
+         family={\textbf{M Gruenstaeudl}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=NL}{%
+         family={Nauheimer},
+         familyi={N\bibinitperiod},
+         given={L},
+         giveni={L},
+      }}%
+      {{hash=BT}{%
+         family={Borsch},
+         familyi={B\bibinitperiod},
+         given={T},
+         giveni={T},
+      }}%
+    }
+    \strng{namehash}{tNLBT1}
+    \strng{fullhash}{tNLBT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{note}{doi: \url{https://doi.org/10.1007/s00606-017-1436-5}}
+    \field{pages}{1251\bibrangedash 1270}
+    \field{title}{{Plastid genome structure and phylogenomics of Nymphaeales:
+  Conserved gene order and new insights into relationships}}
+    \field{volume}{303}
+    \field{journaltitle}{Plant Systematics and Evolution}
+    \field{year}{2017}
+  \endentry
+
+  \entry{CarstensEtAl2016}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=CB}{%
+         family={Carstens},
+         familyi={C\bibinitperiod},
+         given={BC},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=t}{%
+         family={\textbf{M Gruenstaeudl}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=RN}{%
+         family={Reid},
+         familyi={R\bibinitperiod},
+         given={NM},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CBtRN1}
+    \strng{fullhash}{CBtRN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{note}{doi: \url{https://doi.org/10.1111/evo.12916}}
+    \field{pages}{1080\bibrangedash 1093}
+    \field{title}{{Community trees: Identifying codiversification in the Paramo
+  dipteran community}}
+    \field{volume}{70}
+    \field{journaltitle}{Evolution}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Gruenstaeudl2016}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=t}{%
+         family={\textbf{M Gruenstaeudl}},
+         familyi={t\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{t1}
+    \strng{fullhash}{t1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{note}{doi: \url{https://doi.org/10.3732/apps.1500120}}
+    \field{pages}{1500120}
+    \field{title}{{WARACS: Wrappers to automate the reconstruction of ancestral
+  character states}}
+    \field{volume}{4}
+    \field{journaltitle}{Applications in Plant Sciences}
+    \field{year}{2016}
+  \endentry
+
+  \entry{GruenstaeudlEtAl2015}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=t}{%
+         family={\textbf{M Gruenstaeudl}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=RN}{%
+         family={Reid},
+         familyi={R\bibinitperiod},
+         given={NM},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=WG}{%
+         family={Wheeler},
+         familyi={W\bibinitperiod},
+         given={GL},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=CB}{%
+         family={Carstens},
+         familyi={C\bibinitperiod},
+         given={BC},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{tRNWGCB1}
+    \strng{fullhash}{tRNWGCB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{note}{doi: \url{https://doi.org/10.1111/1755-0998.12435}}
+    \field{pages}{193\bibrangedash 205}
+    \field{title}{{Posterior predictive checks of coalescent models: P2C2M, an
+  R package}}
+    \field{volume}{16}
+    \field{journaltitle}{Molecular Ecology Resources}
+    \field{year}{2015}
+  \endentry
+
+  \entry{GruenstaeudlEtAl2013a}{incollection}{}{}
+    \name{author}{4}{}{%
+      {{hash=t}{%
+         family={\textbf{M Gruenstaeudl}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=HC}{%
+         family={Hawkes},
+         familyi={H\bibinitperiod},
+         given={CV},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SGA}{%
+         family={Santos-Guerra},
+         familyi={S\bibinithyphendelim G\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+      {{hash=JR}{%
+         family={Jansen},
+         familyi={J\bibinitperiod},
+         given={RK},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \name{editor}{3}{}{%
+      {{hash=CCJ}{%
+         family={Caujape-Castells},
+         familyi={C\bibinithyphendelim C\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+      {{hash=NFG}{%
+         family={Nieto-Feliner},
+         familyi={N\bibinithyphendelim F\bibinitperiod},
+         given={G},
+         giveni={G},
+      }}%
+      {{hash=FPJ}{%
+         family={Fernandez-Palacios},
+         familyi={F\bibinithyphendelim P\bibinitperiod},
+         given={JM},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Fundacion Canaria Amurga Maspalomas}%
+    }
+    \strng{namehash}{tHCSGAJR1}
+    \strng{fullhash}{tHCSGAJR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{booktitle}{Proceedings of the Amurga International Conferences on
+  Island Biodiversity 2011}
+    \field{isbn}{978-84-616-7394-0}
+    \field{pages}{146\bibrangedash 153}
+    \field{title}{{Preliminary investigations of correlated diversification
+  between plants and their associated arbuscular mycorrhizal fungi in
+  Macaronesia}}
+    \list{location}{1}{%
+      {Las Palmas, Spain}%
+    }
+    \field{year}{2013}
+  \endentry
+
+  \entry{GruenstaeudlEtAl2013c}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=t}{%
+         family={\textbf{M Gruenstaeudl}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=SGA}{%
+         family={Santos-Guerra},
+         familyi={S\bibinithyphendelim G\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+      {{hash=HC}{%
+         family={Hawkes},
+         familyi={H\bibinitperiod},
+         given={CV},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=JR}{%
+         family={Jansen},
+         familyi={J\bibinitperiod},
+         given={RK},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{tSGAHCJR1}
+    \strng{fullhash}{tSGAHCJR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{issn}{0210-945X}
+    \field{note}{doi: \url{http://dx.doi.org/10.31939/vieraea.2013.41.17}}
+    \field{pages}{233\bibrangedash 252}
+    \field{title}{{Molecular survey of arbuscular mycorrhizal fungi associated
+  with \textit{Tolpis} on three Canarian islands (Asteraceae)}}
+    \field{volume}{41}
+    \field{journaltitle}{Vieraea}
+    \field{year}{2013}
+  \endentry
+
+  \entry{GruenstaeudlEtAl2013b}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=t}{%
+         family={\textbf{M Gruenstaeudl}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=SGA}{%
+         family={Santos-Guerra},
+         familyi={S\bibinithyphendelim G\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+      {{hash=JR}{%
+         family={Jansen},
+         familyi={J\bibinitperiod},
+         given={RK},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{tSGAJR1}
+    \strng{fullhash}{tSGAJR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{note}{doi: \url{https://doi.org/10.1111/cla.12005}}
+    \field{pages}{416\bibrangedash 434}
+    \field{title}{{Phylogenetic analyses of \textit{Tolpis} Adans. (Asteraceae)
+  reveal patterns of adaptive radiation, multiple colonization and
+  interspecific hybridization}}
+    \field{volume}{29}
+    \field{journaltitle}{Cladistics}
+    \field{year}{2013}
+  \endentry
+
+  \entry{FunkEtAl2009}{incollection}{}{}
+    \name{author}{20}{}{%
+      {{hash=FV}{%
+         family={Funk},
+         familyi={F\bibinitperiod},
+         given={V},
+         giveni={V},
+      }}%
+      {{hash=AA}{%
+         family={Anderberg},
+         familyi={A\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+      {{hash=BB}{%
+         family={Baldwin},
+         familyi={B\bibinitperiod},
+         given={B},
+         giveni={B},
+      }}%
+      {{hash=BR}{%
+         family={Bayer},
+         familyi={B\bibinitperiod},
+         given={R},
+         giveni={R},
+      }}%
+      {{hash=BJ}{%
+         family={Bonifacino},
+         familyi={B\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+      {{hash=BI}{%
+         family={Breitwieser},
+         familyi={B\bibinitperiod},
+         given={I},
+         giveni={I},
+      }}%
+      {{hash=BL}{%
+         family={Brouillet},
+         familyi={B\bibinitperiod},
+         given={L},
+         giveni={L},
+      }}%
+      {{hash=CR}{%
+         family={Carbajal},
+         familyi={C\bibinitperiod},
+         given={R},
+         giveni={R},
+      }}%
+      {{hash=CR}{%
+         family={Chan},
+         familyi={C\bibinitperiod},
+         given={R},
+         giveni={R},
+      }}%
+      {{hash=CA}{%
+         family={Coutinho},
+         familyi={C\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+      {{hash=CD}{%
+         family={Crawford},
+         familyi={C\bibinitperiod},
+         given={D},
+         giveni={D},
+      }}%
+      {{hash=CJ}{%
+         family={Crisci},
+         familyi={C\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+      {{hash=DM}{%
+         family={Dillon},
+         familyi={D\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+      {{hash=FS}{%
+         family={Freire},
+         familyi={F\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+      {{hash=GCM}{%
+         family={Galbany\bibnamedelima Casals},
+         familyi={G\bibinitperiod\bibinitdelim C\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+      {{hash=GJN}{%
+         family={Garcia-Jacas},
+         familyi={G\bibinithyphendelim J\bibinitperiod},
+         given={N},
+         giveni={N},
+      }}%
+      {{hash=GB}{%
+         family={Gemeinholzer},
+         familyi={G\bibinitperiod},
+         given={B},
+         giveni={B},
+      }}%
+      {{hash=t}{%
+         family={\textbf{M Gruenstaeudl}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={Lack},
+         familyi={L\bibinitperiod},
+         given={HW},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=WL}{%
+         family={Watson},
+         familyi={W\bibinitperiod},
+         given={L},
+         giveni={L},
+      }}%
+    }
+    \name{editor}{4}{}{%
+      {{hash=FV}{%
+         family={Funk},
+         familyi={F\bibinitperiod},
+         given={VA},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Susanna},
+         familyi={S\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+      {{hash=ST}{%
+         family={Stuessy},
+         familyi={S\bibinitperiod},
+         given={TF},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BR}{%
+         family={Bayer},
+         familyi={B\bibinitperiod},
+         given={R},
+         giveni={R},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {International Association For Plant Taxonomy (IAPT)}%
+    }
+    \strng{namehash}{FVAABBBRBJBIBLCRCRCACDCJDMFSGCMGJNGBtLHWL1}
+    \strng{fullhash}{FVAABBBRBJBIBLCRCRCACDCJDMFSGCMGJNGBtLHWL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{booktitle}{Systematics, Evolution and Biogeography of the
+  Compositae}
+    \field{isbn}{978-39-501-7543-1}
+    \field{pages}{747\bibrangedash 777}
+    \field{title}{{Compositae metatrees: the next generation}}
+    \list{location}{1}{%
+      {Vienna, Austria}%
+    }
+    \field{year}{2009}
+  \endentry
+
+  \entry{StuessyEtAl2009}{incollection}{}{}
+    \name{author}{3}{}{%
+      {{hash=ST}{%
+         family={Stuessy},
+         familyi={S\bibinitperiod},
+         given={TF},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=UE}{%
+         family={Urtubey},
+         familyi={U\bibinitperiod},
+         given={E},
+         giveni={E},
+      }}%
+      {{hash=t}{%
+         family={\textbf{M Gruenstaeudl}},
+         familyi={t\bibinitperiod},
+      }}%
+    }
+    \name{editor}{4}{}{%
+      {{hash=FV}{%
+         family={Funk},
+         familyi={F\bibinitperiod},
+         given={V.A.},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Susanna},
+         familyi={S\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Stuessy},
+         familyi={S\bibinitperiod},
+         given={T.F.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BR}{%
+         family={Bayer},
+         familyi={B\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IAPT}%
+    }
+    \strng{namehash}{STUEt1}
+    \strng{fullhash}{STUEt1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{booktitle}{Systematics, Evolution and Biogeography of the
+  Compositae}
+    \field{isbn}{978-39-501-7543-1}
+    \field{pages}{215\bibrangedash 228}
+    \field{title}{{Barnadesieae (Barnadesioideae)}}
+    \list{location}{1}{%
+      {Vienna, Austria}%
+    }
+    \field{year}{2009}
+  \endentry
+
+  \entry{GruenstaeudlEtAl2009}{article}{}{}
+    \name{author}{6}{}{%
+      {{hash=t}{%
+         family={\textbf{M Gruenstaeudl}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=UE}{%
+         family={Urtubey},
+         familyi={U\bibinitperiod},
+         given={E},
+         giveni={E},
+      }}%
+      {{hash=JR}{%
+         family={Jansen},
+         familyi={J\bibinitperiod},
+         given={RK},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Samuel},
+         familyi={S\bibinitperiod},
+         given={R},
+         giveni={R},
+      }}%
+      {{hash=BM}{%
+         family={Barfuss},
+         familyi={B\bibinitperiod},
+         given={MHJ},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Stuessy},
+         familyi={S\bibinitperiod},
+         given={TF},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{tUEJRSRBMST1}
+    \strng{fullhash}{tUEJRSRBMST1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{note}{doi: \url{https://doi.org/10.1016/j.ympev.2009.01.023}}
+    \field{pages}{572\bibrangedash 587}
+    \field{title}{{Phylogeny of Barnadesioideae (Asteraceae) inferred from DNA
+  sequence data and morphology}}
+    \field{volume}{51}
+    \field{journaltitle}{Molecular Phylogenetics and Evolution}
+    \field{year}{2009}
+  \endentry
+\enddatalist
+\endinput
