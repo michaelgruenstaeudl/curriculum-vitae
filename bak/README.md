@@ -29,6 +29,11 @@ Current as of: 31-Aug-2025
 
 ---
 
+## Awards
+- **Outstanding Research and Scholarly Activity Award** — Fort Hays State University (2025)
+
+---
+
 ## Machine-readable structured data
 
 ```json
@@ -145,6 +150,17 @@ Current as of: 31-Aug-2025
       "url": "https://gepris.dfg.de/gepris/projekt/418670221",
       "startDate": "2018",
       "endDate": "2022"
+    }
+  ],
+  "award": [
+    {
+      "@type": "Award",
+      "name": "Outstanding Research and Scholarly Activity Award",
+      "awarder": {
+        "@type": "CollegeOrUniversity",
+        "name": "Fort Hays State University"
+      },
+      "dateAwarded": "2025"
     }
   ]
 }
